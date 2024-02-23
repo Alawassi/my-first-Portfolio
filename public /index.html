@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <title>
+        Hussein.alawassi
+    </title>
+</head>
+
+
+<body>
+
+
+
+
+
+    <header>
+        <nav>
+            <ul>
+
+                <li><a href="#Education">Education</a></li>
+
+
+                <li><a href="#projects">projects</a></li>
+
+                <li><a href="#SKILL">Skill</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <div id="aside aside-3">
+
+        <img src="img/IMG.jpeg" class="imgs">
+
+        <div class="fon-my">
+
+
+            <h2 style="color:rgb(6, 6, 6)">
+                Hello everybody
+                <h3> I'm Hussein </h3>
+            </h2>
+            <h1 style="color:rgb(6, 6, 6)">Web-Developer<span style="color:#FF6363">/</span>front-end</h1>
+            <h3>
+                I am a committed student of business informatics.</h3>
+            <h3>I am passionate about programming and always open to learning more. </h3>
+
+
+            <a class="downlod" href="pdf/lebenslauf.pdf" download>
+                <h3> <i class="fa fa-download"></i> CV </h3>
+            </a>
+
+
+
+
+
+
+            <ul class="social-icons">
+
+                <li><a href="https://www.instagram.com/hussein_awassi/?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100008476876482"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/hussein-al-awassi-a51566230/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/Alawassi"><i class="fa-brands fa-square-github"></i></a></li>
+
+                <li> <a href="#"><i class="fa-brands fa-discord"></i></a></li>
+                <li> <a href="#"><i class="fa fa-envelope" ></i></a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div id="Education" class="aside aside-1">
+
+
+        <h1 class="main__heading">Education</h1>
+
+        <div class="slider" x-data="{start: true, end: false}">
+            <div class="slider__content" x-ref="slider" x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
+                <div class="slider__item">
+                    <img class="slider__image" src="img/istockphoto-1432962983-612x612.jpg" alt="Image">
+                    <div class="slider__info">
+
+                        <h2>Otto-von-Guericke-Universität Magdeburg</h2>
+                        <h2>Business Informatics</h2>
+                        <h2>2020 - Now</h2>
+                        <a class="downlod" href="https://www.ovgu.de/"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+
+
+                <div class="slider__item">
+                    <img class="slider__image" src="img/social-icon-google-cloud..png" alt="Image">
+                    <div class="slider__info">
+                        <h2>OVGU Winter school </h2>
+                        <h2>Online intensive cours on Google Cloud Skills Boost</h2>
+                        <h2><a class="downlod" href="pdf/Certificate_Winter School_Al Awassi_Hussein.pdf" download><i class="fa-solid fa-graduation-cap"></i></a></h2>
+
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="https://images.unsplash.com/photo-1608501821300-4f99e58bba77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxhYnN0cmFjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="Image">
+                    <div class="slider__info">
+                        <h2> Coursera</h2>
+                        <h2><a class="downlod" href="https://www.coursera.org/user/6821682c60aa1187ff8d2b137c7ce3e4"><i class="fa-solid fa-compass"></i></a></h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="projects">
+        <h1 class="main__heading">projects</h1>
+
+        <div class="slider" x-data="{start: true, end: false}">
+            <div class="slider__content" x-ref="slider" x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
+
+
+                <div class="slider__item">
+                    <img class="slider__image" src="img/istockphoto-1432962983-612x612.jpg" alt="Image">
+                    <div class="slider__info">
+
+                        <h1>My portfolio
+
+                        </h1>
+
+
+                        <a class="downlod" href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="slider__item"> </div>
+                <div class="slider__item"> </div>
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div id="SKILL" class="aside aside-2">
+
+        <h1> SKILL</h1>
+
+
+        <div class="buttons">
+
+            <button class="neumorphic active">
+
+            <i class="fa-brands fa-html5"></i>
+
+</button>
+
+
+            <button class="neumorphic active">
+            <i class="fa-brands fa-css3-alt"></i>
+
+</button>
+
+
+            <button class="neumorphic active">
+            <i class="fab fa-js"></i>
+
+</button>
+
+            <button class="neumorphic active">
+            <i class="fa-brands fa-java"></i>
+</button>
+
+
+
+            <button class="neumorphic active">
+             <img src="img/sap.webp" class="flag" >
+
+           </button>
+            <button class="neumorphic active">
+            <i class=""><i class="fa-brands fa-github"></i></i>
+</button>
+
+
+            <button class="neumorphic active">
+            <i class="fa-brands fa-figma"></i>
+
+</button>
+
+            <button class="neumorphic active">
+            <i class="fa-brands fa-unity"></i>
+
+</button>
+
+
+
+
+            <button class="neumorphic active">
+              <h2>    Excal / Word   </h2>  
+
+            </button>
+
+
+            <button class="neumorphic active">
+                <img src="img/icons8-deutschland-emoji-48.png" class="flag" >
+   
+</button>
+            <button class="neumorphic active">
+    <img src="img/icons8-großbritannien-emoji-48.png" class="flag" >
+
+</button>
+            <button class="neumorphic active">
+    <img src="img/icons8-syrien-emoji-48.png" class="flag" >
+
+           </button>
+        </div>
+    </div>
+</body>
+
+
+
+</html>
